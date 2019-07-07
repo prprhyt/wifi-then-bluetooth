@@ -11,3 +11,4 @@ for ((i=0; i < 5; i++)); do
     exit
 done
 networksetup -setairportpower en0 off
+/usr/local/bin/blueutil -p 0
